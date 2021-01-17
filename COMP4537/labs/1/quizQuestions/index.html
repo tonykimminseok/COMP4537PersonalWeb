@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz 1</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1 class="title">Quiz 1</h1>
+    <div class="questions">
+        <div class="question">
+            <h3 class="problem">1) What would be the output of this script?</h3>
+
+            <div class="example">
+                <p>
+                    <span class="red">let</span> mul = 2; <br>
+                    <span class="blue">for</span> (<span class="red">let</span> i = 3; i < 5; ++i) { <br>
+                    mul = mul * i; <br>
+                    } <br>
+                    <br>
+                    <span class="blue">console</span>.log(mul);<br>
+                </p>
+            </div>
+            
+            <div class="choices">
+                <input type="radio" id="q1" name="q1" value="q1">
+                <label for="q1">a) 22</label>
+                <br>
+
+                <input type="radio" id="q2" name="q2" value="q2">
+                <label for="q2">b) 33</label>
+                <br>
+
+                <input type="radio" id="q3" name="q3" value="q3">
+                <label for="q3">c) 33</label>
+                <br>
+
+                <input type="radio" id="q4" name="q4" value="q4">
+                <label for="q4">d) 24</label>
+                <br>
+            </div>
+
+            <p class="answer">Answer is d</p>
+        </div>
+
+        <div class="question">
+            <h3 class="problem">2) What would be the output of this script uisng '??' operator?</h3>
+
+            <div class="example">
+                <p>
+                    <span class="red">let</span> firstName = null; <br>
+                    <span class="red">let</span> lastName = null; <br>
+                    <span class="red">let</span> nickName = "Supercoder"; <br>
+                    <span class="blue">console</span>.log(firstName ?? lastName ?? nickName ?? "Anonymous");
+                </p>
+            </div>
+            
+            <div class="choices">
+                <input type="radio" id="q1" name="q1" value="q1">
+                <label for="q1">a) null</label>
+                <br>
+
+                <input type="radio" id="q2" name="q2" value="q2">
+                <label for="q2">b) SuperCode</label>
+                <br>
+
+                <input type="radio" id="q3" name="q3" value="q3">
+                <label for="q3">c) undefined</label>
+                <br>
+
+                <input type="radio" id="q4" name="q4" value="q4">
+                <label for="q4">d) all of the above</label>
+                <br>
+            </div>
+            <p class="answer">Answer is b</p>
+        </div>
+
+        <div class="question">
+            <h3 class="problem">3) What would be the output of this script uisng '||' operator?</h3>
+
+            <div class="example">
+                <p>
+                    <span class="red">let</span> firstName = null; <br>
+                    <span class="red">let</span> lastName = null; <br>
+                    <span class="red">let</span> nickName = "Supercoder"; <br>
+                    <span class="blue">console</span>.log(firstName || lastName || "Anonymous" || nickName );
+                </p>
+            </div>
+            
+            <div class="choices">
+                <input type="radio" id="q1" name="q1" value="q1">
+                <label for="q1">a) null</label>
+                <br>
+
+                <input type="radio" id="q2" name="q2" value="q2">
+                <label for="q2">b) SuperCode</label>
+                <br>
+
+                <input type="radio" id="q3" name="q3" value="q3">
+                <label for="q3">c) undefined</label>
+                <br>
+
+                <input type="radio" id="q4" name="q4" value="q4">
+                <label for="q4">d) Anonymous</label>
+                <br>
+            </div>
+            <p class="answer">Answer is d</p>
+        </div>
+
+        <div class="question">
+            <h3 class="problem">4) What is the result of this arrow function?</h3>
+
+            <div class="example">
+                <p>
+                    <span class="red">let</span> sum = (a, b) => { <br>
+                    <span class="red">let</span> result = a + b; <br>
+                    <span class="red">return</span> result;<br>
+                    } <br>
+                    <br>
+                    <span class="blue">console</span>.log(sum(1, 2));<br>
+                </p>
+            </div>
+            
+            <div class="choices">
+                <input type="radio" id="q1" name="q1" value="q1">
+                <label for="q1">a) 1</label>
+                <br>
+
+                <input type="radio" id="q2" name="q2" value="q2">
+                <label for="q2">b) 2</label>
+                <br>
+
+                <input type="radio" id="q3" name="q3" value="q3">
+                <label for="q3">c) 3</label>
+                <br>
+
+                <input type="radio" id="q4" name="q4" value="q4">
+                <label for="q4">d) 4</label>
+                <br>
+            </div>
+            <p class="answer">Answer is c</p>
+        </div>
+
+        <div class="question">
+            <h3 class="problem">5) False or True?</h3>
+
+            <div class="example">
+                <p>
+                    <span class="red">let</span> result = (a, b) => { <br>
+                    <span class="red">return </span> (5 == a + b) ? true : false;  <br>
+                    } <br>
+                    <br>
+                    <span class="blue">console</span>.log(result(1,2));<br>
+                </p>
+            </div>
+            
+            <div class="choices">
+                <input type="radio" id="q1" name="q1" value="q1">
+                <label for="q1">True</label>
+                <br>
+
+                <input type="radio" id="q2" name="q2" value="q2">
+                <label for="q2">False</label>
+                <br>
+
+            </div>
+            <p class="answer">Answer is False</p>
+        </div>
+
+        <div class="question">
+            <h3 class="problem">6) What is the output of the following script?</h3>
+
+            <div class="example">
+                <p>
+                    <span class="red">let</span> x = (1 && 2) ?? 3; <br>
+                    <span class="blue">console</span>.log(x);<br>
+                </p>
+            </div>
+            
+            <div class="choices">
+                <input type="radio" id="q1" name="q1" value="q1">
+                <label for="q1">a) 0</label>
+                <br>
+
+                <input type="radio" id="q2" name="q2" value="q2">
+                <label for="q2">b) 1</label>
+                <br>
+
+                <input type="radio" id="q3" name="q3" value="q3">
+                <label for="q3">c) 2</label>
+                <br>
+
+                <input type="radio" id="q4" name="q4" value="q4">
+                <label for="q4">d) 3</label>
+                <br>
+            </div>
+            <p class="answer">Answer is c</p>
+        </div>
+    </div>
+
+    <input class="back-button" type="button" value="BACK" onclick="history.back()">
+</body>
+</html>
